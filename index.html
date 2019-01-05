@@ -1,51 +1,151 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>
-            yozba
-        </title>
-    </head>
-    <style>
-        body{
-            font-family: Exo\ 2,Meiryo;
-            list-style-type: none;
-            background-color:rgb(22, 22, 22);
-            color: rgb(255, 255, 255);
-        }
-        #title, #title ul{
-            padding: 5px 0;
-            margin: 5px 0;
-            text-align:center
-        }
-        #title h1{
-            font-size: 50px;
-        }
-        #title ul li{
-            font-size: 20px;
-            display: inline-block;
-            padding: 10px;
-        }
-        a{
-            text-decoration: none;
-        }
-        a:link, a:visited {
-            color: rgb(40, 175, 135);
-        }
-        a:hover, a:active{
-            color: rgb(83, 232, 188);
-        }
-    </style>
-    <body>
-        <header id="title">
-            <h1>YOZBA</h1>
-            <ul>
-                <li>
-                    <a href="index.html">WORK</a>
-                </li>
-                <li>
-                    <a href="about.html">ABOUT</a>
-                </li>
-            </ul>
-        </header>
-    </body>
+
+<head>
+    <title>
+        yozba
+    </title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css?family=Exo+2:200,400,700,900');
+
+    body {
+        padding: 10px;
+        margin: 5px;
+        font-family: 'Exo 2', 'Meiryo', sans-serif;
+        list-style-type: none;
+        background-color: rgb(22, 22, 22);
+        color: rgb(255, 255, 255);
+    }
+
+    /*ヘッダー内での間隔設定*/
+    #title,
+    #title ul {
+        font-weight: 200;
+        padding: 5px 0;
+        margin: 5px 0;
+        text-align: center
+    }
+
+    /*タイトル（自分の名前）*/
+    #title h1 {
+        font-size: 50px;
+    }
+
+    /*ワークとかアバウトとかその辺*/
+    #title ul li {
+        font-size: 20px;
+        display: inline-block;
+        padding: 10px;
+    }
+
+    /*no more 下線*/
+    a {
+        text-decoration: none;
+    }
+
+    /*no more 青色リンク*/
+    a:link,
+    a:visited {
+        color: rgb(40, 175, 135);
+    }
+
+    /*マウスカーソル合わせた時に色を明るく*/
+    a:hover,
+    a:active {
+        color: rgb(83, 232, 188);
+    }
+    /*ここがわからん中央に寄せたい*/
+    .GIFs {
+        padding: 0;
+        margin: 10%;
+    }
+    #content{
+        padding: 0 auto;
+    }
+
+    /*カードデザイン設定*/
+    .card {
+        text-align: center;
+        margin: 10px;
+        display: inline-block;
+        width: 20vw;
+        background: #f7f7f7;
+    }
+
+    .card-image {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .card-content {
+        padding: 10px
+    }
+
+    .card-title {
+        font-weight: 700;
+        font-size: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+        color: #000;
+    }
+
+    /*card-textなるものは書いていないけど一応残しておく*/
+    .card-text {
+        padding: 0 auto;
+        font-weight: 400;
+        color: #000;
+        font-size: 15px;
+        line-height: 1.5;
+    }
+</style>
+
+<body>
+    <!--タイトルとかリンクとか-->
+    <header id="title">
+        <h1>YOZBA</h1>
+        <ul>
+            <li>
+                <a href="index.html">WORK</a>
+            </li>
+            <li>
+                <a href="about.html">ABOUT</a>
+            </li>
+        </ul>
+    </header>
+    <!--テストで書いたもの　キャッチフレーズとか入れるといいかも-->
+    <p style="font-size: 15px; text-align:center;">
+        I'm gonna write something here, are you able to read this easily?
+    </p>
+    <!--小物系-->
+    <section class="GIFs">
+        <section id="content">
+            <section class="card">
+                <img class="card-image" src="https://imgur.com/1XtoknP.png" alt="icon">
+                <div class="card-content">
+                    <h3 class="card-title">
+                        Test Upload (My icon)
+                    </h3>
+                </div>
+            </section>
+            <section class="card">
+                <img class="card-image" src="https://imgur.com/1XtoknP.png" alt="icon">
+                <div class="card-content">
+                    <h3 class="card-title">
+                        Test Upload 2 (My icon)
+                    </h3>
+                </div>
+            </section>
+            <section class="card">
+                <img class="card-image" src="https://imgur.com/1XtoknP.png" alt="icon">
+                <div class="card-content">
+                    <h3 class="card-title">
+                        Test Upload 3 (My icon)
+                    </h3>
+                </div>
+            </section>
+        </section>
+    </section>
+</body>
+
 </html>
