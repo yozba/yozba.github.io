@@ -10,8 +10,8 @@
     @import url('https://fonts.googleapis.com/css?family=Exo+2:200,400,700,900');
 
     body {
-        padding: 10px;
-        margin: 5px;
+        padding: 0;
+        margin: 0;
         font-family: 'Exo 2', 'Meiryo', sans-serif;
         list-style-type: none;
         background-color: rgb(22, 22, 22);
@@ -55,37 +55,43 @@
     a:active {
         color: rgb(83, 232, 188);
     }
-    /*ここがわからん中央に寄せたい*/
     .GIFs {
         padding: 0;
-        margin: 10%;
+        margin: 6% 20%;
     }
     #content{
         padding: 0 auto;
+        border: solid 0px #000;
+        width: 100%;
+        font-size: 0;
     }
 
-    /*カードデザイン設定*/
+    /*カードデザイン設定　画像を30％x3=90%にして、残りの10%を4分割して2.5%配置したい*/
     .card {
-        text-align: center;
-        margin: 10px;
+        width: 30%;
         display: inline-block;
-        width: 20vw;
+        vertical-align: top;
+        margin: 0 0 2.5% 2.5%;
+        border: 0;
         background: #f7f7f7;
     }
 
     .card-image {
         max-width: 100%;
         height: auto;
+        margin: 0;
+        padding: 0;
     }
 
     .card-content {
+        margin: 0;
         padding: 10px
     }
 
     .card-title {
         font-weight: 700;
-        font-size: 20px;
-        margin-bottom: 20px;
+        font-size: 15px;
+        margin: 10px 0;
         text-align: center;
         color: #000;
     }
@@ -97,6 +103,10 @@
         color: #000;
         font-size: 15px;
         line-height: 1.5;
+    }
+    h3{
+        margin: 0;
+        padding: 0;
     }
 </style>
 
@@ -120,30 +130,54 @@
     <!--小物系-->
     <section class="GIFs">
         <section id="content">
-            <section class="card">
+            <article class="card">
                 <img class="card-image" src="https://imgur.com/1XtoknP.png" alt="icon">
                 <div class="card-content">
                     <h3 class="card-title">
                         Test Upload (My icon)
                     </h3>
                 </div>
-            </section>
-            <section class="card">
+            </article>
+            <article class="card">
                 <img class="card-image" src="https://imgur.com/1XtoknP.png" alt="icon">
                 <div class="card-content">
                     <h3 class="card-title">
                         Test Upload 2 (My icon)
                     </h3>
                 </div>
-            </section>
-            <section class="card">
-                <img class="card-image" src="https://imgur.com/1XtoknP.png" alt="icon">
+            </article>
+            <article class="card">
+                <img class="card-image" src="https://i.imgur.com/h8csYCR.png" alt="icon">
                 <div class="card-content">
                     <h3 class="card-title">
                         Test Upload 3 (My icon)
                     </h3>
                 </div>
-            </section>
+            </article>
+            <article class="card">
+                <img class="card-image" src="https://i.imgur.com/h8csYCR.png" alt="icon">
+                <div class="card-content">
+                    <h3 class="card-title">
+                        Test Upload 3 (My icon)
+                    </h3>
+                </div>
+            </article>
+            <article class="card">
+                <img class="card-image" src="https://i.imgur.com/h8csYCR.png" alt="icon">
+                <div class="card-content">
+                    <h3 class="card-title">
+                        Test Upload 3 (My icon)
+                    </h3>
+                </div>
+            </article>
+            <article class="card">
+                <img class="card-image" src="https://i.imgur.com/h8csYCR.png" alt="icon">
+                <div class="card-content">
+                    <h3 class="card-title">
+                        Test Upload 3 (My icon)
+                    </h3>
+                </div>
+            </article>
         </section>
     </section>
 </body>
