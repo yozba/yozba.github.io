@@ -60,7 +60,6 @@ a:active {
 }
 
 #content {
-    padding: 0 auto;
     border: solid 0px #000;
     width: 100%;
     font-size: 0;
@@ -72,8 +71,7 @@ a:active {
     width: 30%;
     min-width: 200px;
     max-width: 400px;
-    display: inline-block;
-    vertical-align: top;
+    display: block;
     margin: 0 0 2.5% 2.5%;
     border: 0;
     background: #f7f7f7;
