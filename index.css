@@ -1,11 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Exo+2:200,400,700,900');
 body {
-    padding: 0;
-    margin: 0;
     font-family: 'Exo 2', 'Meiryo', sans-serif;
     list-style-type: none;
     background-color: rgb(22, 22, 22);
     color: rgb(255, 255, 255);
+}
+
+body,
+ul,
+li {
+    padding: 0;
+    margin: 0;
 }
 
 /*ヘッダー内での間隔設定*/
@@ -62,6 +67,7 @@ a:active {
 #content {
     border: solid 0px #000;
     width: 100%;
+    min-width: 600px;
     font-size: 0;
 }
 
@@ -69,12 +75,13 @@ a:active {
 
 .card {
     width: 30%;
-    min-width: 200px;
+    min-width: 250px;
     max-width: 400px;
     display: block;
     margin: 0 0 2.5% 2.5%;
     border: 0;
     background: #f7f7f7;
+    box-shadow: 8px 8px #4d4d4d;
 }
 
 .card-image {
@@ -84,20 +91,20 @@ a:active {
     padding: 0;
 }
 
+/*card-text,card-title,card-contentなるものは現在書いていないけど（前はあった）一応残しておく*/
+
 .card-content {
     margin: 0;
-    padding: 10px
+    padding: 3px;
 }
 
 .card-title {
     font-weight: 700;
     font-size: 15px;
-    margin: 10px 0;
+    margin: 5px 0;
     text-align: center;
     color: #000;
 }
-
-/*card-textなるものは書いていないけど一応残しておく*/
 
 .card-text {
     padding: 0 auto;
@@ -106,5 +113,3 @@ a:active {
     font-size: 15px;
     line-height: 1.5;
 }
-
--

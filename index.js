@@ -4,6 +4,6 @@ $(function () {
             $grid.masonry({
                 itemSelector: '.card'
             });
-        });     
+        });
     });
 });
