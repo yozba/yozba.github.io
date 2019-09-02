@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Exo+2:200,400,700,900');
+@import url('https://fonts.googleapis.com/css?family=Exo+2:100,200,400,700');
 body {
     font-family: 'Exo 2', 'Meiryo', sans-serif;
     list-style-type: none;
@@ -11,30 +11,6 @@ ul,
 li {
     padding: 0;
     margin: 0;
-}
-
-/*ヘッダー内での間隔設定*/
-
-#title,
-#title ul {
-    font-weight: 200;
-    padding: 5px 0;
-    margin: 5px 0;
-    text-align: center
-}
-
-/*タイトル（自分の名前）*/
-
-#title h1 {
-    font-size: 50px;
-}
-
-/*ワークとかアバウトとかその辺*/
-
-#title ul li {
-    font-size: 20px;
-    display: inline-block;
-    padding: 10px;
 }
 
 /*no more 下線*/
@@ -59,15 +35,67 @@ a:active {
     transition: 250ms;
 }
 
-.GIFs {
-    padding: 0;
-    margin: 6% 20%;
+/*-------------------------------------------------------------------------------*/
+
+/*すべてを囲む　コンテナー*/
+.container{
+    display: block;
+    width: 90%;
+    margin: 50px 0;
 }
 
+/*ヘッダー内での間隔設定*/
+
+#title {
+    float: left;
+    text-align: left;
+    padding: 0;
+    margin: 0 50px;
+    position:fixed;
+}
+
+/*タイトル（自分の名前）*/
+
+#title .name {
+    font-weight: 100;
+    font-size: 50px;
+    margin: 50px 0;
+}
+#title .name a:link,
+#title .name a:visited {
+    color: #FFF;
+}
+
+/*ワークとかアバウトとかその辺*/
+
+#title ul li {
+    font-weight: 200;
+    font-size: 20px;
+    margin: 20px 0;
+    list-style: none;
+
+}
+
+.button{
+    padding: 0 5px 5px 5px;
+    border: solid 1px rgb(40, 175, 135);
+}
+
+/*マージンの魔神*/
+
+.wrapper{
+    display: block;
+    width: auto;
+    margin-left: 280px;
+    font-size: 0;
+}
 #content {
+    display: block;
     border: solid 0px #000;
-    width: 100%;
+    width: 70%;
+    max-width:1000px;
     min-width: 600px;
+    margin: 0 auto;
     font-size: 0;
 }
 
@@ -81,7 +109,7 @@ a:active {
     margin: 0 0 2.5% 2.5%;
     border: 0;
     background: #f7f7f7;
-    box-shadow: 8px 8px #4d4d4d;
+    box-shadow: 5px 5px rgb(16, 70, 53);
 }
 
 .card-image {
