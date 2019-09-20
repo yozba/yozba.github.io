@@ -141,3 +141,9 @@ a:active {
     font-size: 15px;
     line-height: 1.5;
 }
+
+.textman{
+    font-weight: 100;
+    font-size: 50px;
+    margin: 50px 0;
+}
