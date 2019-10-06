@@ -40,7 +40,7 @@ a:active {
 /*すべてを囲む　コンテナー*/
 .container{
     display: block;
-    width: 90%;
+    width: 95%;
     margin: 50px 0;
 }
 
@@ -79,6 +79,41 @@ a:active {
 .button{
     padding: 0 5px 5px 5px;
     border: solid 1px rgb(40, 175, 135);
+    transition: 250ms;
+}
+
+.button:hover{
+    border: solid 1px rgb(83, 232, 188);
+    transition: 250ms;
+}
+
+/*Twitterとかその辺*/
+
+#social{
+    margin-top: 50px;
+}
+
+.button-social{
+    display:inline-block;
+    width: 33px;
+    height: 33px;
+}
+
+.social-link{
+    padding: 3px;
+    border: solid 1px rgb(40, 175, 135);
+    fill: none;
+    stroke: rgb(40, 175, 135);
+    stroke-width: 0.7px;
+    transition: 250ms;
+}
+
+.social-link:hover{
+    border: solid 1px rgb(83, 232, 188);
+    fill: none;
+    stroke: rgb(83, 232, 188);
+    stroke-width: 0.7px;
+    transition: 250ms;
 }
 
 /*マージンの魔神*/
@@ -86,30 +121,36 @@ a:active {
 .wrapper{
     display: block;
     width: auto;
-    margin-left: 280px;
+    margin-left: 250px;
     font-size: 0;
 }
 #content {
     display: block;
     border: solid 0px #000;
-    width: 70%;
-    max-width:1000px;
+    width: 80%;
+    max-width:1150px;
     min-width: 600px;
     margin: 0 auto;
     font-size: 0;
 }
 
-/*カードデザイン設定　画像を30％x3=90%にして、残りの10%を4分割して2.5%配置したい*/
+/*カードデザイン設定　30 x3 + 2.5 x4 = 100*/
 
 .card {
+    display: block;
     width: 30%;
     min-width: 250px;
-    max-width: 400px;
-    display: block;
+    max-width: 450px;
     margin: 0 0 2.5% 2.5%;
     border: 0;
     background: #f7f7f7;
     box-shadow: 7px 7px rgb(88, 179, 151);
+    transition: all 250ms;
+}
+
+.card:hover {
+    box-shadow: 11px 11px rgb(88, 179, 151);
+    transition: all 250ms;
 }
 
 .card-image {
