@@ -1,6 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Exo+2:100,200,400,700');
+@import url('https://fonts.googleapis.com/css?family=Exo+2:100,200,300,400');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP:300');
 body {
-    font-family: 'Exo 2', 'Meiryo', sans-serif;
+    font-family: 'Exo 2', 'Noto Sans JP','Meiryo', sans-serif;
     list-style-type: none;
     background-color: rgb(245, 245, 245);
     color: rgb(22, 22, 22);
@@ -8,7 +9,8 @@ body {
 
 body,
 ul,
-li {
+li,
+p {
     padding: 0;
     margin: 0;
 }
@@ -50,8 +52,10 @@ a:active {
     float: left;
     text-align: left;
     padding: 0;
+    margin-top: 70px;
     margin-left: 110px;
     position:fixed;
+    top: 0px;
 }
 
 /*タイトル（自分の名前）*/
@@ -160,31 +164,42 @@ a:active {
     padding: 0;
 }
 
-/*card-text,card-title,card-contentなるものは現在書いていないけど（前はあった）一応残しておく*/
-
-.card-content {
-    margin: 0;
-    padding: 3px;
+/*アバウト ミーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー*/
+.about-container{
+    display: block;
+    margin-top: 200px;
+    margin-left: 100px
 }
 
-.card-title {
-    font-weight: 700;
-    font-size: 15px;
-    margin: 5px 0;
-    text-align: center;
-    color: #000;
+.about-icon{
+    display: inline-block;
+    vertical-align: top;
+    height: 200px;
+    width: 200px;
+    box-shadow: 7px 7px rgb(88, 179, 151);
 }
 
-.card-text {
-    padding: 0 auto;
+#me-margin{
+    display:inline-block;
+    vertical-align: top;
+    margin-left: 80px;
+}
+
+.about-name{
+    display: block;
     font-weight: 400;
-    color: #000;
-    font-size: 15px;
-    line-height: 1.5;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.description{
+    display: block;
+    font-weight: 300;
+    font-size: 20px;
+    margin: 0;
 }
 
 .textman{
     font-weight: 100;
     font-size: 50px;
-    margin: 50px 0;
 }
