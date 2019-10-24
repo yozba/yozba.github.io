@@ -138,7 +138,39 @@ a:active {
     font-size: 0;
 }
 
-/*カードデザイン設定　30 x3 + 2.5 x4 = 100*/
+/*ワーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーークス*/
+
+.works_article{
+    display: block;
+    width: 100%;
+    height: 100px;
+    margin: 0;
+}
+
+.works_image{
+    display:inline-block;
+    width: auto;
+    height: auto;
+    max-width: 400px;
+    max-height: 225px;
+}
+
+.works_text{
+    display:inline-block;
+    vertical-align: top;
+}
+
+.works_title{
+    display: block;
+    font-size: 20px;
+}
+
+.works_description{
+    display: block;
+    font-size: 15px;
+}
+
+/*アウトプットオンツイッターーーーーーーーーーーーーーーーーーーー2　(30 x3 + 2.5 x4 = 100)*/
 
 .card {
     display: block;
@@ -165,13 +197,13 @@ a:active {
 }
 
 /*アバウト ミーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー*/
-.about-container{
+.about_container{
     display: block;
     margin-top: 200px;
-    margin-left: 100px
+    margin-left: 5%;
 }
 
-.about-icon{
+.about_icon{
     display: inline-block;
     vertical-align: top;
     height: 200px;
@@ -180,19 +212,20 @@ a:active {
 }
 
 #me-margin{
-    display:inline-block;
+    display: inline-block;
     vertical-align: top;
+    margin-top: 10px;
     margin-left: 80px;
 }
 
-.about-name{
+.about_name{
     display: block;
     font-weight: 400;
     font-size: 40px;
     margin-bottom: 30px;
 }
 
-.description{
+.about_description{
     display: block;
     font-weight: 300;
     font-size: 20px;
