@@ -161,16 +161,19 @@ a:active {
 }
 
 .works_title{
+    font-weight: 400;
     display: block;
     font-size: 20px;
 }
 
 .works_description{
+    font-weight: 300;
     display: block;
     font-size: 15px;
 }
 
 .works_date{
+    font-weight: 300;
     display: block;
     font-size: 15px;
 }
