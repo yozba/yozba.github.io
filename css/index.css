@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Exo+2:100,200,300,400');
+@import url('https://fonts.googleapis.com/css?family=Exo:100,200,300');
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP:300');
 body {
-    font-family: 'Exo 2', 'Noto Sans JP','Meiryo', sans-serif;
+    font-family: 'Exo', 'Noto Sans JP','Meiryo', sans-serif;
     list-style-type: none;
     background-color: rgb(245, 245, 245);
     color: rgb(22, 22, 22);
@@ -25,7 +25,7 @@ a {
 
 a:link,
 a:visited {
-    color: rgb(40, 175, 135);
+    color: rgb(74, 179, 147);
     transition: 250ms;
 }
 
@@ -33,7 +33,7 @@ a:visited {
 
 a:hover,
 a:active {
-    color: rgb(83, 232, 188);
+    color: rgb(43, 192, 147);
     transition: 250ms;
 }
 
@@ -62,7 +62,7 @@ a:active {
 
 #title .name {
     font-weight: 100;
-    font-size: 50px;
+    font-size: 30px;
     margin: 50px 0;
 }
 #title .name a:link,
@@ -73,22 +73,11 @@ a:active {
 /*ワークとかアバウトとかその辺*/
 
 #title ul li {
-    font-weight: 200;
-    font-size: 20px;
-    margin: 20px 0;
+    font-weight: 300;
+    font-size: 16px;
+    margin: 3px 0;
     list-style: none;
 
-}
-
-.button{
-    padding: 0 5px 5px 5px;
-    border: solid 1px rgb(40, 175, 135);
-    transition: 250ms;
-}
-
-.button:hover{
-    border: solid 1px rgb(83, 232, 188);
-    transition: 250ms;
 }
 
 /*Twitterとかその辺*/
@@ -98,26 +87,9 @@ a:active {
 }
 
 .button-social{
-    display:inline-block;
-    width: 33px;
-    height: 33px;
-}
-
-.social-link{
-    padding: 3px;
-    border: solid 1px rgb(40, 175, 135);
-    fill: none;
-    stroke: rgb(40, 175, 135);
-    stroke-width: 0.7px;
-    transition: 250ms;
-}
-
-.social-link:hover{
-    border: solid 1px rgb(83, 232, 188);
-    fill: none;
-    stroke: rgb(83, 232, 188);
-    stroke-width: 0.7px;
-    transition: 250ms;
+    font-weight: 300;
+    font-size: 16px;
+    margin: 3px 0;
 }
 
 /*マージンの魔神*/
@@ -243,19 +215,26 @@ a:active {
 
 .about_name{
     display: block;
-    font-weight: 400;
+    font-weight: 200;
     font-size: 40px;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
+}
+
+.about_contact{
+    display: block;
+    margin-bottom: 20px;
+    font-weight: 300;
+    font-size: 15px;
 }
 
 .about_description{
     display: block;
     font-weight: 300;
-    font-size: 20px;
+    font-size: 18px;
     margin: 0;
 }
 
 .textman{
-    font-weight: 100;
+    font-weight: 200;
     font-size: 50px;
 }
