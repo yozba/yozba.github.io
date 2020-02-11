@@ -3,7 +3,7 @@
 body {
     font-family: 'Exo', 'Noto Sans JP','Meiryo', sans-serif;
     list-style-type: none;
-    background-color: rgb(245, 245, 245);
+    background-color: #FFF;
     color: #000;
     animation: fadeIn 0.2s ease-out 0s 1 normal;
 }
