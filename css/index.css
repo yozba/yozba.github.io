@@ -111,14 +111,14 @@ a:visited {
 .card {
     display: block;
     width: 30%;
-    margin: 0 0 3px 3px;
+    margin: 0 0 2px 2px;
     border: 0;
     opacity: 1;
 	transition:		all 0.2s ease;
 }
 
 .deka {
-    width: calc(60% + 3px);
+    width: calc(60% + 2px);
     min-width: 403px;
     max-width: 693px;
 }
@@ -271,7 +271,11 @@ a:visited {
     font-size: 16px;
 }
 
+.project-image{
+    margin-bottom: 2px;
+}
+
 .project-screenshot{
     display: inline-block;
-    width: 50%;
+    width: calc(50% - 1px);
 }
