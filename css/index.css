@@ -219,6 +219,7 @@ a:visited {
 }
 
 .about-link-button{
+    display: inline-block;
     font-weight: 300;
     font-size: 16px;
     margin: 0px 20px 0 0;
