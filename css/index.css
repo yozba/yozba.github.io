@@ -247,18 +247,6 @@ a:visited {
     height: 100%;
 }
 
-.vp-center {
-    display: block !important;
-}
-
-.player{
-    float: left !important;
-}
-
-.project-image{
-    margin: 0;
-}
-
 .project-text{
     margin: 0;
 }
@@ -281,4 +269,9 @@ a:visited {
 
 .project-credit{
     font-size: 16px;
+}
+
+.project-screenshot{
+    display: inline-block;
+    width: 50%;
 }
