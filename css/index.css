@@ -110,7 +110,7 @@ a:visited {
 
 .card {
     display: block;
-    width: 30%;
+    width: 32%;
     margin: 0 0 2px 2px;
     border: 0;
     opacity: 1;
@@ -118,7 +118,7 @@ a:visited {
 }
 
 .deka {
-    width: calc(60% + 2px);
+    width: calc(64% + 2px);
     min-width: 403px;
     max-width: 693px;
 }
