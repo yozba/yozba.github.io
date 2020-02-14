@@ -279,3 +279,7 @@ a:visited {
     display: inline-block;
     width: calc(50% - 1px);
 }
+
+.project-screenshot-margin{
+    margin-right: 2px;
+}
