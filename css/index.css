@@ -166,7 +166,7 @@ a:visited {
 
 /*アバウト ミーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー*/
 .about-container{
-    display: block;
+    display: flex;
     margin-top: 200px;
     margin-left: 5%;
 }
@@ -183,7 +183,7 @@ a:visited {
     display: inline-block;
     vertical-align: top;
     margin-top: 10px;
-    margin-left: 80px;
+    margin-left: 60px;
 }
 
 .about-name{
