@@ -54,9 +54,9 @@ a:visited {
 /*すべてを囲む　コンテナーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー*/
 .container {
     display: block;
-    width: 95%;
+    width: 70%;
     height: 100%;
-    margin: 100px 0;
+    margin: 100px auto;
 }
 
 #title {
@@ -64,7 +64,6 @@ a:visited {
     text-align: left;
     padding: 0;
     margin-top: 70px;
-    margin-left: 15%;
     position:fixed;
     top: 0px;
 }
@@ -92,7 +91,7 @@ a:visited {
     display: block;
     width: auto;
     height: auto;
-    margin-left: 30%;
+    margin-left: calc(81.250px + 10%); /*81.250pxはヘッダーのサイズ(テキストサイズ)*/
     font-size: 0;
 }
 #content {
