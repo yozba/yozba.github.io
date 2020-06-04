@@ -174,8 +174,10 @@ a:visited {
 .about-icon{
     display: inline-block;
     vertical-align: top;
-    height: 200px;
-    width: 200px;
+    height: 30%;
+    width: 30%;
+    max-height: 200px;
+    max-width: 200px;
     box-shadow: 3px 3px rgb(88, 179, 151);
 }
 
