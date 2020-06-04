@@ -115,13 +115,13 @@ a:visited {
 }
 
 .deka {
-    width: calc(64% + 2px);
+    width: calc(66% + 2px);
     min-width: 402px;
     max-width: 692px;
 }
 
 .mini {
-    width: 32%;
+    width: 33%;
     min-width: 200px;
     max-width: 345px;
 }
