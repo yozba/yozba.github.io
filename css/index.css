@@ -117,13 +117,13 @@ a:visited {
 .deka {
     width: calc(66% + 2px);
     min-width: 402px;
-    max-width: 692px;
+    max-width: 762px;
 }
 
 .mini {
     width: 33%;
     min-width: 200px;
-    max-width: 345px;
+    max-width: 380px;
 }
 
 .card-image {
