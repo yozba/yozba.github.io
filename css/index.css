@@ -99,7 +99,6 @@ a:visited {
     border: solid 0px #000;
     width: 100%;
     height: auto !important;
-    max-width:1050px;
     min-width: 600px;
     margin: 0;
     font-size: 0;
@@ -109,7 +108,6 @@ a:visited {
 
 .card {
     display: block;
-    width: 32%;
     margin: 0 0 2px 2px;
     border: 0;
     opacity: 1;
@@ -118,8 +116,8 @@ a:visited {
 
 .deka {
     width: calc(64% + 2px);
-    min-width: 403px;
-    max-width: 693px;
+    min-width: 402px;
+    max-width: 692px;
 }
 
 .mini {
