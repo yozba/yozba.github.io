@@ -126,13 +126,6 @@ a:visited {
     max-width: 380px;
 }
 
-.card-image {
-    max-width: 100%;
-    height: auto;
-    margin: 0;
-    padding: 0;
-}
-
 .card-text{
     position: absolute;
     top: 0;
@@ -158,6 +151,13 @@ a:visited {
 .card-title{
     font-size: 20px;
     font-weight: 300;
+}
+
+.card-image {
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
 }
 
 #content li:last-child .card{
