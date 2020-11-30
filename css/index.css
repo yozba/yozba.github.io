@@ -181,7 +181,10 @@ a:visited {
     box-shadow: 3px 3px rgb(88, 179, 151);
 }
 
-#me-margin{
+.about-text::before{
+	
+}
+.about-text{
     display: inline-block;
     vertical-align: top;
     margin-top: 10px;
