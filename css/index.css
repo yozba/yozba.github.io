@@ -78,6 +78,13 @@ a:visited {
     color: #000;
 }
 
+#title .name .contact{
+    display: block;
+    margin-top: 10px;
+    font-weight: 300;
+    font-size: 15px;
+}
+
 #title ul li {
     font-weight: 300;
     font-size: 19px;
@@ -85,7 +92,7 @@ a:visited {
     list-style: none;
 }
 
-/*マーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーージンの魔神*/
+/*マーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーージン*/
 
 .wrapper{
     display: block;
