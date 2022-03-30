@@ -95,14 +95,15 @@ a:visited {
 /*マーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーージン*/
 
 .wrapper{
-	display: block;
+	/* display: block; */
 	width: auto;
 	height: auto;
-	margin-left: calc(81.250px + 10%); /*81.250pxはヘッダーのサイズ(テキストサイズ)*/
+	margin-left: calc(81.250px + 10%);
+	/* 81.250pxはヘッダーのサイズ(テキストサイズ) */
 	font-size: 0;
 }
 #content {
-	display: block;
+	/* display: block; */
 	border: solid 0px #000;
 	width: 100%;
 	height: auto !important;
@@ -115,24 +116,40 @@ a:visited {
 
 .card {
 	display: block;
-	margin: 0 2px 2px 0;
+	margin: 0;
 	border: 0;
 	opacity: 1;
-	transition:		all 0.2s ease;
+	transition:all 0.2s ease;
+	overflow: hidden;
+	object-fit: none;
 }
 
-.big {
-	width: calc(66% + 2px);
-	min-width: 202px;
-	max-width: 762px;
-}
-
-.mini {
-	width: 33%;
+.block1 {
+	width: calc(100%/3);
+	aspect-ratio: 1;
 	min-width: 100px;
 	max-width: 380px;
 }
 
+.block2 {
+	width: calc(100% * 2/3);
+	aspect-ratio: 2;
+	min-width: 202px;
+	max-width: 762px;
+}
+
+.block3 {
+	width: 100%;
+	aspect-ratio: 3;
+	min-width: 202px;
+	max-width: 762px;
+}
+
+.block4 {
+	width: calc(100% * 2/3);
+	min-width: 202px;
+	max-width: 762px;
+}
 .card-text{
 	position: absolute;
 	top: 0;
@@ -161,14 +178,15 @@ a:visited {
 }
 
 .card-image {
-	max-width: 100%;
-	height: auto;
+	width: 100%;
+	height: 100%;
 	margin: 0;
 	padding: 0;
+	object-fit: cover;
 }
 
 #content li:last-child .card{
-	margin: 0 0 50px 2px;
+	margin: 0 0 50px 0px;
 }
 
 /*アバウト ミーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー*/
