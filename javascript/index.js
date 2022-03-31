@@ -5,6 +5,7 @@ $(function () {
 				itemSelector: '.card',
 				percentPosition: true
 			});
+			$('#content').masonry();
 		});
 	});
 });
