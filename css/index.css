@@ -51,7 +51,7 @@ a:visited {
 	height: 0px;
 }
 
-/*すべてを囲む　コンテナーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー*/
+/*margin----------------------------------------------------------*/
 .container {
 	display: block;
 	width: 70%;
@@ -92,36 +92,21 @@ a:visited {
 	list-style: none;
 }
 
-/*マーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーージン*/
-
-.wrapper{
-	/* display: block; */
-	width: auto;
-	height: auto;
-	margin-left: calc(81.250px + 10%);
-	/* 81.250pxはヘッダーのサイズ(テキストサイズ) */
-	font-size: 0;
-}
 #content {
-	/* display: block; */
-	border: solid 0px #000;
-	width: 100%;
-	height: auto !important;
+	width: auto;
 	min-width: 400px;
 	margin: 0;
+	margin-left: calc(81.250px + 10%);
 	font-size: 0;
+	vertical-align: top;
 }
 
-/*ワーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーク*/
+/*work----------------------------------------------------------*/
 
 .card {
 	display: block;
 	margin: 0;
-	border: 0;
-	opacity: 1;
-	transition:all 0.2s ease;
 	overflow: hidden;
-	object-fit: none;
 }
 
 .block1 {
@@ -147,6 +132,7 @@ a:visited {
 
 .block4 {
 	width: calc(100% * 2/3);
+	aspect-ratio: 1;
 	min-width: 202px;
 	max-width: 762px;
 }
@@ -185,11 +171,7 @@ a:visited {
 	object-fit: cover;
 }
 
-#content li:last-child .card{
-	margin: 0 0 50px 0px;
-}
-
-/*アバウト ミーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー*/
+/*about---------------------------------------------------------*/
 .about-container{
 	display: flex;
 	margin-top: 200px;
@@ -251,7 +233,7 @@ a:visited {
 	margin: 0px 20px 0 0;
 }
 
-/*プロジェクトーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー*/
+/*project-----------------------------------------------------*/
 
 .project-container{
 	margin: 0;
