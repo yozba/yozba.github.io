@@ -52,7 +52,7 @@ a:visited {
 }
 
 /*margin----------------------------------------------------------*/
-.container {
+.wrapper {
 	display: block;
 	width: 70%;
 	height: 100%;
@@ -94,11 +94,11 @@ a:visited {
 
 #content {
 	width: auto;
+	height: 100%;
 	min-width: 400px;
 	margin: 0;
 	margin-left: calc(81.250px + 10%);
 	font-size: 0;
-	vertical-align: top;
 }
 
 /*work----------------------------------------------------------*/
