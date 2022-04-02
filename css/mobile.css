@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css?family=Exo:200,300');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP:300');
+body {
+	font-family: 'Exo', 'Noto Sans JP','Meiryo', sans-serif;
+	list-style-type: none;
+	background-color: #FFF;
+	color: #000;
+	animation: fadeIn 0.2s ease-out 0s 1 normal;
+}
+body,
+ul,
+li,
+p {
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	position : relative;
+	text-decoration: none;
+}
+
+a:after {
+	position: absolute;
+	bottom: 0px;
+	left: 0;
+	content: '';
+	width: 100%;
+	height: 1px;
+	background: #000;
+	transform: scale(0, 1);
+	transform-origin: left top;
+	transition: transform .3s;
+  }
+  a:hover:after {
+	transform: scale(1, 1);
+  }
+
+a:link,
+a:visited {
+	color: #000;
+}
+
+.name a:after, .card:after{
+	height: 0px;
+}
+
+/*margin----------------------------------------------------------*/
+.wrapper {
+	display: block;
+	width: 90%;
+	height: 100%;
+	margin: 20px auto;
+}
+
+#title {
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+
+#title .name {
+	display: inline-block;
+	font-weight: 200;
+	font-size: 45px;
+}
+
+#title .name a:link,
+#title .name a:visited {
+	color: #000;
+}
+
+#title .name .contact{
+	display: inline-block;
+	margin-top: 10px;
+	font-weight: 300;
+	font-size: 15px;
+}
+
+#title ul{
+	display: inline-block;
+}
+
+#title ul li {
+	display: inline-block;
+	font-weight: 300;
+	font-size: 19px;
+	margin-bottom: 10px;
+	margin-left: 20px;
+	list-style: none;
+}
+
+#content {
+	width: auto;
+	height: 100%;
+	margin: 0;
+	/* margin-left: calc(90px + 10%); */
+	font-size: 0;
+}
+
+/*work----------------------------------------------------------*/
+
+.card {
+	display: block;
+	margin: 0;
+	margin-bottom: 5px;
+	overflow: hidden;
+	width: 100%;
+	aspect-ratio: 2;
+}
+
+.card-text{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	/* text-align: center; */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	color: #000;
+	background: rgba(0,0,0,0);
+	transition: all 0.3s ease;
+}
+
+.card-text:hover{
+	background: rgba(0,0,0,0.5);
+	transition:	all 0.3s ease;
+}
+
+.card-title{
+	display: inline;
+	background: #FFF;
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 1.5em;
+	padding: 0 10px;
+	box-decoration-break: clone;
+	-webkit-box-decoration-break: clone;
+}
+
+.card-image {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	object-fit: cover;
+}
+
+
