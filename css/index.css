@@ -55,6 +55,7 @@ a:visited {
 .wrapper {
 	display: block;
 	width: 70%;
+	min-width: 900px;
 	height: 100%;
 	margin: 100px auto;
 }
@@ -97,7 +98,7 @@ a:visited {
 	height: 100%;
 	min-width: 400px;
 	margin: 0;
-	margin-left: calc(81.250px + 10%);
+	margin-left: calc(90px + 10%);
 	font-size: 0;
 }
 
