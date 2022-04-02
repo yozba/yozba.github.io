@@ -156,9 +156,10 @@ a:visited {
 }
 
 .about-text{
-	display: inline-block;
-
-
+	display: block;
+	width: 100%;
+	max-width: 400px;
+	margin: 0 auto;
 }
 
 .about-name{
