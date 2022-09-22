@@ -1,6 +1,4 @@
-$(function () {
-	$('head').load('/include.html meta,title,link');
-
+$('head').load('/include.html meta,title,link', function(){
 	if(location.pathname == '/'){
 		$('#header').load('/include.html header',function () {
 			$('#content').imagesLoaded(function () {
