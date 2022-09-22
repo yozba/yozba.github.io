@@ -13,5 +13,12 @@ $(function () {
 	}else{
 		$('head').append($('<div>').load('/include.html meta,title,link'));
 		$('#header').load('/include.html header');
+		$(function(){
+			$('.popup').magnificPopup({
+				type: 'image',
+				removalDelay: 300,
+				mainClass: 'mfp-fade'
+			});
+		});
 	}
 });

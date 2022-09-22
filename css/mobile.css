@@ -31,17 +31,20 @@ a:after {
 	transform: scale(0, 1);
 	transform-origin: left top;
 	transition: transform .3s;
-  }
-  a:hover:after {
+}
+
+a:hover:after {
 	transform: scale(1, 1);
-  }
+}
 
 a:link,
 a:visited {
 	color: #000;
 }
 
-.name a:after, .card:after{
+.name a:after,
+.card:after,
+.popup:after {
 	height: 0px;
 }
 
