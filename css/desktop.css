@@ -233,6 +233,9 @@ header ul li {
 	padding-top: 20px;
 	border-top: 1px solid #000;
 }
+.about-link{
+	display: none;
+}
 
 /*project-----------------------------------------------------*/
 

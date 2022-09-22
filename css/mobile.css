@@ -53,34 +53,34 @@ a:visited {
 	margin: 10px auto;
 }
 
-#title {
+header {
 	display: flex;
 	align-items: flex-end;
 	justify-content: space-between;
 	margin-bottom: 10px;
 }
 
-#title .name {
+header .name {
 	display: inline-block;
 	font-weight: 200;
 	font-size: 35px;
 }
 
-#title .name a:link,
-#title .name a:visited {
+header .name a:link,
+header .name a:visited {
 	color: #000;
 }
 
-#title .name .contact{
+header .name .contact{
 	font-weight: 300;
 	font-size: 15px;
 }
 
-#title ul{
+header ul{
 	display: inline-block;
 }
 
-#title ul li {
+header ul li {
 	display: inline-block;
 	font-weight: 300;
 	font-size: 20px;
