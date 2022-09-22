@@ -11,7 +11,7 @@ $(function () {
 			});
 		});
 	}else{
-		$('head').load('/include.html meta,title,link')
+		$('head').append($('<div>').load('/include.html meta,title,link'));
 		$('#header').load('/include.html header');
 	}
 });
