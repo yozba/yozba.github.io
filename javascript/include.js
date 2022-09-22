@@ -1,6 +1,6 @@
-$('head').load('/include.html meta,title,link', function(){
+$(function () {
 	if(location.pathname == '/'){
-		$('#header').load('/include.html header',function () {
+		$('#header').load('/include.html header', function(){
 			$('#content').imagesLoaded(function () {
 				$('#content').masonry({
 					itemSelector: '.card',
@@ -11,6 +11,7 @@ $('head').load('/include.html meta,title,link', function(){
 			});
 		});
 	}else{
+		$('head').load('/include.html meta,title,link')
 		$('#header').load('/include.html header');
 	}
 });
